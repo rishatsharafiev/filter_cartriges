@@ -1,0 +1,627 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+
+
+/*
+ * Body
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+/*  background-color:#F7F7F7;         Removed 11.09.2013      */
+}
+
+#page {
+}
+
+/*
+  Start user added styles
+*/
+
+.region-sidebar-first {
+  /*background-color: #f7f7f7;        Removed 11.09.2013     */
+}
+aside.sidebars section.region-sidebar-first div.block {
+  background-color: #fff;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.2);
+  margin-top: -9px;
+}
+
+#email-top-menu {
+  height: 25px;
+  background-color: #9FDF9F;
+  border-top: 6px solid #339933;
+  padding: 2px;
+  margin-bottom: 5px;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.2);
+}
+
+#email-phone {
+  float: left;
+  margin-left: 10px;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+#email-phone a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#email-phone a:hover {
+  color: #339933;
+}
+
+#main-menu ul li.menu-218 {
+  height: 40px;
+  background-color: #EAF5FE;
+  border-top: 6px solid #187AC3;
+  width: 230px;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.2);
+}
+
+#main-menu ul li.menu-218.active {
+  background: url('../images/menu-blue.png') #EAF5FE bottom center no-repeat;
+}
+
+#main-menu ul li.menu-218:hover {
+  background-color: #CFEFEF;
+  background: url('../images/menu-blue.png') #EAF5FE bottom center no-repeat;
+}
+
+#main-menu ul li.menu-218 a {
+  color: #187AC3;
+  margin-left:62px;
+}
+
+#main-menu ul li.menu-480 {
+  height: 40px;
+  background-color: #FEE7F3;
+  border-top: 6px solid #E00C77;
+  width: 230px;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.2);
+}
+
+#main-menu ul li.menu-480.active {
+  background: url('../images/menu-red.png') #FEE7F3 bottom center no-repeat;
+}
+
+#main-menu ul li.menu-480:hover {
+  background-color: #F9E2EA;
+  background: url('../images/menu-red.png') #FEE7F3 bottom center no-repeat;
+}
+
+#main-menu ul li.menu-480 a {
+  color: #E00C77;
+  margin-left: 52px;
+}
+
+#main-menu ul li.menu-481 {
+  height: 40px;
+  background-color: #FEFAE2;
+  border-top: 6px solid #FDD508;
+  width: 230px;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.2);
+}
+
+#main-menu ul li.menu-481.active {
+  background: url('../images/menu-yellow.png') #FEFAE2 bottom center no-repeat;
+}
+
+#main-menu ul li.menu-481:hover {
+  background-color: #FAF6CB;
+  background: url('../images/menu-yellow.png') #FEFAE2 bottom center no-repeat;
+}
+
+#main-menu ul li.menu-481 a {
+  color: #FDD508;
+  margin-left: 58px;
+}
+
+#main-menu ul li.menu-482 {
+  height: 40px;
+  background-color: #F1F1F1;
+  border-top: 6px solid #010407;
+  width: 230px;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.2);
+}
+
+#main-menu ul li.menu-482.active {
+  background: url('../images/menu-grey.png') #F1F1F1 bottom center no-repeat;
+}
+
+#main-menu ul li.menu-482:hover {
+  background-color: #EAEAEA;
+  background: url('../images/menu-grey.png') #F1F1F1 bottom center no-repeat;
+}
+
+#main-menu ul li.menu-482 a {
+  color: #010407;
+  margin-left: 85px;
+}
+
+#main-menu ul li a {
+  text-decoration: none;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+#secondary-menu li{
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #339933;
+}
+
+#secondary-menu li.last{
+  border: none;
+}
+
+#secondary-menu li a{
+  color: #339933;
+  text-decoration: none;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#secondary-menu li a:hover, #secondary-menu li a.active{
+  color: #fff;
+}
+
+#block-system-navigation li a{
+  font-size: 12px;
+  color: #888;
+  text-decoration: none;
+}
+
+#block-system-navigation li a:hover{
+  color: #555;
+}
+
+#block-system-navigation .last.leaf {
+    padding-bottom: 7px;
+}
+
+h2.node-title {
+  line-height: 1em;
+  padding-bottom: 10px;
+}
+
+h2.node-title a {
+  font-size: 18px;
+  text-decoration: underline;
+  color: #187AC3;
+}
+
+h2.node-title a:hover {
+  text-decoration: none;
+  color: #005AA3;
+}
+
+.region-bottom p {
+  font-size: 10px;
+  color: #DCDCDC;
+  line-height: 10px;
+}
+
+.cartrige-price  .cs-thead{
+  background-color: #CFCFFF;
+}
+
+.cartrige-price  .cs-cell{
+  background-color: #EEEEFF;
+}
+
+.cs-thead {
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 3px;
+}
+
+.cs-cell {
+  border: 1px solid #fff;
+  font-size: 12px;
+  padding: 3px;
+}
+
+#edit-cs div.form-item-marka, #cs-models { /* ���� ��� ������� � �������� */
+  float: left;
+  width: 50%;
+}
+
+.form-item-marka select, .form-item-model select {  /* ���� ��� ������� � �������� */
+  font-size: 12px;
+  color: #555;
+  width: 280px;
+}
+
+#edit-dogo {
+  clear: both;
+}
+
+#navigation div.top-menu-items { /*  ������� ���� �� 4� ���������  */
+  float: left;
+  height: 34px;
+  width: 240px;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  box-shadow: 0.2em 0.2em 5px rgba(122, 122, 122, 0.2);
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#first-top-menu-item { /*  ������� ���� 1� �������  */
+  background-color: #EAF5FE;
+  border-top: 6px solid #187AC3;
+  color: #187AC3;
+}
+
+#first-top-menu-item:hover { /*  ������� ���� 1� �������  */
+  background-color: #187AC3;
+  border-top: 6px solid #0560B3;
+  color: #FFFFFF;
+}
+
+#second-top-menu-item { /*  ������� ���� 2� �������  */
+  background-color: #FEE7F3;
+  border-top: 6px solid #E00C77;
+  color:#E00C77;
+}
+
+#second-top-menu-item:hover { /*  ������� ���� 2� �������  */
+  background-color: #E00C77;
+  border-top: 6px solid #D00566;
+  color: #FFFFFF;
+}
+
+#third-top-menu-item { /*  ������� ���� 3� �������  */
+  background-color: #FEFAE2;
+  border-top: 6px solid #FDD508;
+  color: #FDD508;
+}
+
+#third-top-menu-item:hover { /*  ������� ���� 3� �������  */
+  background-color: #FDD508;
+  border-top: 6px solid #ECC400;
+  color: #FFFFFF;
+}
+
+#fourth-top-menu-item { /*  ������� ���� 4�� �������  */
+  background-color: #F1F1F1;
+  border-top: 6px solid #222;
+  color: #222;
+}
+
+#fourth-top-menu-item:hover { /*  ������� ���� 4�� �������  */
+  background-color: #222;
+  border-top: 6px solid #000;
+  color: #FFFFFF;
+}
+
+div.field-type-taxonomy-term-reference {
+  display: none;
+}
+
+div.field-items p {
+  margin: 0px;
+}
+
+div article.node-teaser h2.node-title {
+  margin-top: 20px;
+}
+
+.node-readmore a {
+  font-size: 12px;
+  color: #187AC3;
+  text-decoration: none;
+}
+
+.node-readmore a:hover {
+  color: #005AA3;
+  text-decoration: underline;
+}
+
+#first-line-left, #first-line-right, #second-line-left, #second-line-right {
+  width: 468px;
+  height: 250px;
+  float: left;
+  box-shadow: 0.2em 0.2em 5px rgba(122, 122, 122, 0.2);
+  margin-top: 20px;
+}
+#first-line-left p, #first-line-right p, #second-line-left p, #second-line-right p {
+  padding: 40px 10px 10px 20px;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#first-line-left p img {
+  margin-top: 10px;
+}
+
+#first-line-left, #second-line-left {
+  margin-right: 24px;
+}
+
+#first-line-left {
+  background: url('../images/4elem-fl.png') #EAF5FE no-repeat top left;
+  border-top: 1px solid #137589;
+}
+
+#first-line-right {
+  background: url('../images/4elem-fr.png') #FEE7F3 no-repeat top left;
+  border-top: 1px solid #71023D;
+}
+
+#second-line-left {
+  background: url('../images/4elem-sl.png') #FEFAE2 no-repeat top left;
+  border-top: 1px solid #F6D538;
+}
+
+#second-line-right {
+  background: url('../images/4elem-sr.png') #F1F1F1 no-repeat top left;
+  border-top: 1px solid #999;
+}
+
+.time-bg {
+  margin: 10px 0px 0px 50px;
+  width:150px;
+  height:70px;
+  float:left;
+  background: url('../images/time-work.png') left top no-repeat;
+}
+
+.time-work { margin-top:-3px;  float: right;}
+.time-head { color: #9FDF9F; clear: both; }
+.time-time { color: #339933; font-size: 18px; }
+.time-nowork { color: #339933; font-size: 12px; }
+
+.field-name-field-gimg  .field-item{
+  float: left;
+  padding: 5px 5px 0px 5px;
+  margin: 0px 5px 5px 0px;
+  background-color: #E9E9E9;
+}
+
+/*
+  End user added styles
+*/
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+
+#skip-link {
+  margin: 0;
+}
+#skip-link a,
+#skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+
+#header {
+}
+
+#logo { /* Wrapping link for logo */
+  float: right; /* LTR */
+  margin: 0;
+  padding: 0;
+}
+#logo img {
+    float: right;
+    padding-top: 7px;
+    vertical-align: bottom;
+    width: 84%;
+}
+
+#name-and-slogan { /* Wrapper for website name and slogan */
+  float: left;
+}
+
+#site-name { /* The name of the website */
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+#site-name a:link,
+#site-name a:visited {
+  color: #000;
+  text-decoration: none;
+}
+#site-name a:hover,
+#site-name a:focus {
+  text-decoration: underline;
+}
+
+#site-slogan { /* The slogan (or tagline) of a website */
+  margin: 0;
+  font-size: 1em;
+}
+
+.region-header { /* Wrapper for any blocks placed in the header region */
+  clear: both; /* Clear the logo */
+}
+
+/*
+ * Main (container for everything else)
+ */
+
+#main {
+}
+
+/*
+ * Content
+ */
+
+#content {
+  margin-top: 15px;
+  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.2);
+  padding: 10px 15px;
+  min-height: 530px;
+}
+
+.region-highlighted {
+}
+
+.breadcrumb { /* The path to the current page in the form of a list of links */
+}
+.breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1.title, /* The title of the page */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
+h3.title { /* Comment title */
+  margin: 0;
+}
+
+tr.even { /* Some tables have rows marked even or odd. */
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+tr.odd {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+}
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.status { /* Normal priority messages */
+}
+
+div.warning,
+tr.warning { /* Medium priority messages */
+  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+}
+
+div.error,
+tr.error { /* High priority messages. See also the .error declaration below. */
+}
+
+.error { /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */ /* Drupal core uses a #e55 background */
+}
+
+.warning { /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+}
+
+.tabs { /* See also the tabs.css file. */
+}
+
+.region-help { /* Help text on a page */
+}
+
+.more-help-link { /* Link to more help */
+}
+
+.region-content { /* Wrapper for the actual page content */
+}
+
+ul.inline { /* List of links generated by theme_links() */
+  display: inline;
+  padding: 0;
+}
+ul.inline li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 1em 0 0; /* LTR */
+}
+
+span.field-label { /* The inline field label used by the Fences module */
+  padding: 0 1em 0 0; /* LTR */
+}
+
+.item-list .pager { /* A list of page numbers when more than 1 page of content is available */
+  padding: 0;
+}
+.item-list .pager li { /* Each page number in the pager list */
+  padding: 0 0.5em;
+}
+
+.feed-icon { /* The link to the RSS or Atom feed for the current list of content */
+  display: none;
+}
+
+.more-link { /* Aggregator, blog, and forum more link */
+}
+
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+
+.region-sidebar-first {
+}
+
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+
+.region-sidebar-second {
+}
+
+/*
+ * Footer
+ */
+
+#footer {
+}
+
+/*
+ * Page bottom
+ */
+
+.region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+}
+
+#block-poll-recent .links {
+  display:none;
+}
+
+#edit-vote {
+  margin-bottom: 10px;
+}
+
+#block-poll-recent .poll {
+  margin: 0 5px;
+}

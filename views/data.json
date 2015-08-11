@@ -1,0 +1,60 @@
+{
+  "producers": [
+    {
+      "producer": "HP",
+      "printers": [
+        {
+          "model": "HP LJ (CE525A)",
+          "cartriges": [
+            {
+              "name": "HP CE255A , + чип",
+              "resource": "6000",
+              "fill_price": "200 , +157",
+              "recovery_price": "850 , +157"
+            },
+            {
+              "name": "HP CE255X , + чип  ",
+              "resource": "12500",
+              "fill_price": "607 , +157",
+              "recovery_price": "1307,+157"
+            }
+          ]
+        },
+        {
+          "model": "HP LJ (CE525A) V2",
+          "cartriges": [
+            {
+              "name": "HP CE255A , + чип",
+              "resource": "6000",
+              "fill_price": "200 , +157",
+              "recovery_price": "850 , +157"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "producer": "Samsung",
+      "printers": [
+        {
+          "model": "Samsung CLP-300",
+          "cartriges": [
+            {
+              "name": "Samsung CLP-300 цветной с заменой чипа",
+              "resource": "1000",
+              "fill_price": "1050",
+              "recovery_price": ""
+            },
+            {
+              "name": "Samsung CLP-300 чёрный с заменой чипа",
+              "resource": "2000",
+              "fill_price": "1050",
+              "recovery_price": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

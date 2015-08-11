@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Стоимость работ</title>
+
+  <link rel="shortcut icon" href="http://contrastm.ru/sites/all/themes/contrastm/favicon.ico" type="image/vnd.microsoft.icon">
+
+  <script src="javascripts/jquery-1.11.3.min.js"></script>
+  <!-- jQuery UI end -->
+
+  <!-- styles start -->
+  <link rel="stylesheet" href="stylesheets/system.css">
+  <link rel="stylesheet" href="stylesheets/page.css">
+  <link rel="stylesheet" href="stylesheets/common.css">
+  <!-- styles end -->
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main">
+      <!-- поиск картриджей по производителю -->
+      <div id="cartige_select_by_brand">
+        <h2 class="block__title block-title">Подбор по модели</h2>
+        <div>
+            <fieldset class="form-wrapper" id="edit-cs">
+              <legend>
+                <span class="fieldset-legend">Выберите пожалуйста производителя и модель вашего устройства</span>
+              </legend>
+              <div class="fieldset-wrapper">
+                <div class="form-item form-type-select form-item-marka">
+                  <label for="edit-marka">Выберите производителя </label>
+                  <select id="edit-marka" name="marka" class="form-select ajax-processed">
+                  </select>
+                </div>
+                <div class="form-item form-type-select form-item-marka">
+                  <label for="edit-model">Выберите модель </label>
+                  <select id="edit-model" name="model" class="form-select ajax-processed">
+                  </select>
+                </div>
+                <input type="button" id="edit-dogo" name="op" value="Найти" class="form-submit ajax-processed">
+                <div id="cs-result" style="display: block;">
+                  <div style="display: block;"></div>
+                  <table class="cartrige-price">
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+          </fieldset>
+        </div>
+      </div>
+
+      <!-- поиск картриджей по наименованию -->
+      <div id="cartrige_find_by_name">
+        <h2 class="block__title block-title">Подбор по картриджу</h2>
+        <div>
+            <fieldset class="form-wrapper" id="edit-cs">
+              <legend>
+                <span class="fieldset-legend">Введите пожалуйста наименование картриджа</span>
+              </legend>
+              <div class="fieldset-wrapper">
+                <div class="form-item form-type-textfield form-item-cartrige-type">
+                  <label for="edit-cartrige-type">Наименование картриджа (можно только часть) </label>
+                  <input type="text" id="edit-cartrige-type" name="cartrige_type" value="" size="60" maxlength="128" class="form-text">
+                </div>
+
+                <input type="button" id="edit-dogol" name="op" value="Найти" class="form-submit ajax-processed">
+                <div id="cs-lite-result" style="display: block;">
+                  <div style="display: block;"></div>
+                  <table class="cartrige-price">
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery start -->
+  <script src="javascripts/jquery-1.11.3.min.js"></script>
+  <!-- jQuery end -->
+
+  <!-- Underscore and Backbone start -->
+  <script src="javascripts/underscore-min.js"></script>
+  <script src="javascripts/backbone-min.js"></script>
+  <!-- Underscore and Backbone end -->
+
+  <!-- common script start -->
+  <script src="javascripts/common.js"></script>
+  <!-- common script end -->
+</body>
+</html>

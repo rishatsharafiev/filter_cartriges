@@ -1,0 +1,54 @@
+[
+  {
+    "producer": "Kyocera",
+    "printers": [
+      {
+        "model": "KYOCERA FS-1300D",
+        "cartrige": "Kyocera TK-130 / + чип (300гр.)",
+        "resource": "8000",
+        "fill_price": "400",
+        "recovery_price": "1000"
+      },
+      {
+        "model": "KYOCERA FS-1020D",
+        "cartrige": "Kyocera TK-18 (300гр.)",
+        "resource": "7000",
+        "fill_price": "550",
+        "recovery_price": "-"
+      },
+      {
+        "model": "KYOCERA FS-1100",
+        "cartrige": "Kyocera TK-140 , + чип (190гр.)",
+        "resource": "4000",
+        "fill_price": "500",
+        "recovery_price": "-"
+      }
+    ]
+  },
+  {
+    "producer": "Nffd",
+    "printers": [
+      {
+        "model": "KYOCERA FS-1300D",
+        "cartrige": "Kyocera TK-130 / + чип (300гр.)",
+        "resource": "8000",
+        "fill_price": "400",
+        "recovery_price": "1000"
+      },
+      {
+        "model": "KYOCERA FS-1020D",
+        "cartrige": "Kyocera TK-18 (300гр.)",
+        "resource": "7000",
+        "fill_price": "550",
+        "recovery_price": "-"
+      },
+      {
+        "model": "KYOCERA FS-1100",
+        "cartrige": "Kyocera TK-140 , + чип (190гр.)",
+        "resource": "4000",
+        "fill_price": "500",
+        "recovery_price": "-"
+      }
+    ]
+  }
+]
