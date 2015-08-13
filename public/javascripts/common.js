@@ -12,7 +12,7 @@ var filterByPrinter = (function() {
 
   function init() {
     loadCartriges(fillSelect);
-    loadCartriges(fillOptions);
+
   }
 
   function loadCartriges(callback) {
@@ -33,6 +33,7 @@ var filterByPrinter = (function() {
       var option = '<option name="marka" data-id="' + i + '" value="' + data.producer + '">' + data.producer + '</option>';
       $edit_marka.append(option);
     }
+    loadCartriges(fillOptions);
   }
 
   function refillOptions() {
